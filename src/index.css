@@ -80,4 +80,15 @@ left: 36px;
 top: 227px;
 border-radius: 2px;
 filter:brightness(100%);
+min-height:268px;
+min-width:477px;
+}
+
+.count-container{
+    height:100px;
+    width:300px;
+    position: absolute;
+    left:45%;
+    top:520px;
+    gap:10px;
 }
