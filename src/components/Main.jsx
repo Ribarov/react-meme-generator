@@ -4,18 +4,14 @@ import { useState } from 'react';
 
 const Main = () => {
     
-    const [meme, setMeme] = useState({
-        "topText":"", 
-        "bottomText":"", 
-        "memePic":"https://i.imgflip.com/30b1gx.jpg"
-})
+    const [picture, setPicture] = useState("https://i.imgflip.com/30b1gx.jpg")
     
 
     const handleClick = () => {
         const arrayMeme = memesData.data.memes;
         const randomNumber = Math.floor(Math.random() * arrayMeme.length)
         const randomPic = arrayMeme[randomNumber].url
-        setMeme(meme => memePic.randomPic)
+        setPicture(randomPic)
     }
     
     return(
