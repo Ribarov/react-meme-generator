@@ -1,5 +1,15 @@
+@font-face {
+    font-family: "Impact New";   /*Can be any text*/
+    src: local("Impact"),
+      url("./font/impact.ttf") format("truetype");
+  }
+body {
+   width: auto;
+    height: auto;
+}  
+
 .app-container{
-position: relative;
+position:relative;
 width: 550px;
 height: 550px;
 background: whitesmoke;
@@ -28,7 +38,7 @@ border-radius: 10px 10px 0px 0px;
 }
 
 .logo-text {
-    font-family: Lato;
+    font-family: Impact, sans-serif;
     font-weight: 900;
     font-size:35px;
     color:whitesmoke;
@@ -74,21 +84,49 @@ box-shadow:1px -1px darkgray;
 
 .meme-container {
 position: absolute;
+display:flex;
 width: 477px;
 height: 268px;
 left: 36px;
 top: 227px;
 border-radius: 2px;
-filter:brightness(100%);
+filter:brightness(70%);
 min-height:268px;
 min-width:477px;
 }
 
-.count-container{
-    height:100px;
-    width:300px;
-    position: absolute;
-    left:45%;
-    top:520px;
-    gap:10px;
+.firstmeme{
+    position:absolute;
+    width:440px;
+    text-shadow: dimgrey;
+    height:50px;
+    font-size:xx-large;
+    top:250px;
+    left:60px;
+    text-transform: uppercase; 
+    font-family: Impact, Haettenschweiler, sans-serif;
+    color:white;
+    text-decoration: solid black;
+    font-weight: 900;
+    text-align: center;
+    filter:brightness(150%);
+    
+
+}
+
+.secondmeme {
+    position:absolute;
+    width:440px;
+    text-shadow: dimgrey;
+    height:50px;
+    top:390px;
+    left:60px;
+    text-transform: uppercase; 
+    font-family:Impact;
+    color:white;
+    text-decoration: solid black;
+    text-align: center;
+    font-weight: 900;
+    filter:brightness(150%);
+    
 }

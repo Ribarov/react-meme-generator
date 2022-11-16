@@ -5,9 +5,9 @@ const Navbar = () => {
     return(
     <nav>
         <div className="navbar-container">
-            <img src={require("../images/logo.png")} className="logo" />
-            <span className="logo-text">Meme Generator</span>
-            <img src={require("../images/logo.png")} className="logo" />
+            <img src={require("../images/logo.png")} className="logo" alt="face" />
+            <span className="logo-text">MEME LAND</span>
+            <img src={require("../images/logo.png")} className="logo"  alt="face"/>
         </div>
     </nav>
     
