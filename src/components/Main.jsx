@@ -18,7 +18,7 @@ const Main = () => {
             fetch("https://api.imgflip.com/get_memes")
             .then(res => res.json())
             .then(data => setFetchMemes(data.data.memes))
-        }
+        },[]
     )
 
     const handleClick = () => {
