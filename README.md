@@ -1,5 +1,5 @@
 
-Begginers React project with hooks
+Begginers React project with hooks and API
 
 Meme Generator in React
 
